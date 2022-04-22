@@ -1,6 +1,6 @@
 
 
-# Breath.
+# Bliss.
 
 This project is all about Mental Health,it shows how important is to look after your mental health
 and shows some easy ways to maintain and improve your mental health. \
@@ -138,9 +138,6 @@ One study found that increasing your activity levels from doing nothing, to exer
 
 * Click "Explore" button on main page. (Takes you to the second section).
 * Click on the "Exercise" card to explore.
-
-
-#### Sample Images.
 
 
 #### THANK YOU <3
