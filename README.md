@@ -28,7 +28,7 @@ I hope i made this project very easy to use,But still if you find any difficulti
 * Click "Start Conversation" botton.
 * Click "Listen me" button and,
 * Ask for "Website tour" to Chatbot.
-* Bot will guide you how to use the Breath.
+* Bot will guide you how to use the Bliss.
 
 
 
@@ -83,6 +83,18 @@ Here you find statistics of some mental health related disorders.
 * Click "Remove Country" button to remove lastly added country from the chart.
 
 
+# Meditation
+
+Meditation can wipe away the day's stress, bringing with it inner peace.
+See how you can easily learn to practice meditation whenever you need it most.
+
+#Brainwave Entrainment Relaxation webapp
+
+*Brainwave entrainment is the process of using external stimuli to induce certain
+ states of the brain such as happiness, relaxation, sleep, focus and productivity.
+
+*It is commonly used by people who struggle with different discouraging states,
+ health issues and low moods to help them bring about better states within them that can change their entire attitude and improve the way they go about their day.
 
 # Gaming
 
