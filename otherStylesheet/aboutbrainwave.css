@@ -1,0 +1,23 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
+.card .card-image img {
+  max-height: 300px;
+}
+
+.imge{
+  margin-top: 5%;
+}
+
+.imge1{
+  margin: 0;
+      position: absolute;
+      height: 100%;
+      width: 20%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(40%, 200%);
+}

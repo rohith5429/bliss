@@ -1,0 +1,8 @@
+p{
+    align-items: center;
+    text-align: center;
+}
+
+.fa-long-arrow-alt-right:before {
+    content: "\f30b";
+}
