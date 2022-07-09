@@ -1,155 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss</title>
 
 
-# Bliss.
+    <script src="https://kit.fontawesome.com/1b2b6a64da.js" crossorigin="anonymous"></script>
 
-This project is all about Mental Health,it shows how important is to look after your mental health
-and shows some easy ways to maintain and improve your mental health. \
 
+    <link rel="stylesheet" href="style.css">
 
+    <link rel="icon" href="Images/B_icon01.png">
 
+</head>
+<body>
 
 
-# What we have here
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    +++++++++++                   LANDING-PAGE                    ++++++++++
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
 
-* Friendly Chatbot
-* Statistics of Mental Health disorders
-* Nutritions need to maintain mental health
-* Exercise need to maintain mental health
-* Some game to make you feel better
+    <a href="HOME"></a>
+    <div class="main">
 
+    <!-- +++ HEADER +++ -->
+<!---
+    <div class="blisslogo">
+        <img height="50 px" style="padding-left: 1000%" src="Images/LOGO1.png" alt="logo">
+    </div> --->
+    <div class="header">
+        <div class="logo-cantainer">
+            <h2 class="logo">Bliss.</h2>
+        </div>
 
-# How to Use
 
-I hope i made this project very easy to use,But still if you find any difficulties follow the steps.
 
-* Click the Chatbot Menu
-* Click Take me there button
-* There you can find a chatbot
-* Click "Start Conversation" botton.
-* Click "Listen me" button and,
-* Ask for "Website tour" to Chatbot.
-* Bot will guide you how to use the Bliss.
 
+            <div class="nav-and-btn-cont">
+                <div class="nav-list-cont">
+                    <ul class="nav-ul">
+                        <li><a href="#HOME" >HOME</a></li>
+                        <li><a href="#SECTION-3">CHAT BOT</a></li>
+                        <li><a href="otherHTML/statistics.html">STATISTICS</a></li>
+                        <li><a href="#FOOTER">CONTACT</a></li>
+                    </ul>
+                </div>
 
 
 
 
 
-# Chatbot
+                <div class="hamBurger">
+                    <diV class="line line1"></diV>
+                    <div class="mid-line-cont">
+                        <div class="line mid-line1"></div>
+                        <div class="line mid-line2"></div>
+                    </div>
+                    <diV class="line line3"></diV>
+                </div>
+            </div>
 
-Talking openly about what your going through would really help you to reduce the burden.
+        </div>
 
-### So here is a Voice anabled chatbot you can chat with,
-It is not trained for all conversation but you can talk some normal conversation.
+        <div class="mobile-view-nav-cont" id="mobile-nav">
 
+            <div class="mobile-view-nav-head">
+                <p>Menu</p>
+            </div>
 
-#### How to use
+            <div class="mobile-view-nav-list">
 
-* Click "Start Conversation" button. (Bot will greet you).
-* Click "Listen me" button and start speaking once you stop speaking bot will reply.
-* Click "Stop Conversation" to stop the conversation.
+                <ul>
+                    <li ><a href="#HOME" class="mobile-view-list">HOME</a></li>
+                    <li ><a href="#SECTION-3" class="mobile-view-list">CHAT BOT</a></li>
+                    <li ><a href="otherHTML/statistics.html" class="mobile-view-list">STATISTICS</a></li>
+                    <li ><a href="#FOOTER" class="mobile-view-list">CONTACT</a></li>
+                </ul>
 
+            </div>
 
+        </div>
 
-### Technology Used
 
-* [P5.speech](https://idmnyu.github.io/p5.js-speech/)
-* [Rivescript](https://www.rivescript.com/)
+    <!-- ++ CONTENT-ON-LANDING-PAGE +++  -->
 
-### Prerequisite
+    <!--<div class="">
+        <div class="">
+            <h2 class="logo">Bliss.</h2>
+            <img width="10%" style="" class="logo" src="Images/LOGO1.ico" alt="">
+        </div> -->
 
-* Chrome browser.
-* A device to run that.
+        <div class="content-container">
+            <div>
+                <div class="content-head-cont">
+                    <h2 class="content-head">Mental <span>Health</span></h2>
+                </div>
 
+                <div class="content-quote-cont">
+                    <p class="quote">Take your time <span>healing</span>, as long as you want.
+                                       Nobody else knows what you’ve been through.
+                                       How could they know how long it will take to heal you?</p>
+                </div>
+            </div>
+
+
+            <div class="content-2-cont">
+                <div class="content-2">
+                    <p>This place is dedicated to helping you free yourself from unwanted thought on your mind and
+                        strengthen your mental health.</p>
+                </div>
+
+                <div class="explore-btn-cont">
+                    <a href="#SECTION_2"><button class="explore-btn">Explore</button></a>
+                    <a href="otherHTML/statistics.html"><button class="blog-btn">Statistics</button></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="illustration-cont">
+            <div>
+                <img src="Images/illustration/pot111.png" width="148px" height="383px" id="pot_1" class="flower-pot-1">
+            </div>
+
+            <div class="landing-img-container" id="land-img"></div>
+
+            <div>
+                <img src="Images/illustration/pot211.png" width="140px" height="422px" id="pot_2" class="flower-pot-2">
+            </div>
 
-# Statistics
+            <div class="shadow">
 
-Here you find statistics of some mental health related disorders.
+            </div>
+        </div>
 
+    </div>
 
-#### Disorders added on Statistics
 
-* Anxiety disorders
-* Depression
-* Schizophrenia
-* Bipolar disorder
-* Drug use disorders
-* Alcohol use disorders
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    +++++++++++                   SECTION-2                         ++++++++
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
 
 
-#### How to use
+    <a id="SECTION_2"></a>
 
-* Select different Countries from Dropdown menu to know the statistics of that country
-* Click "Remove Country" button to remove lastly added country from the chart.
+    <div class="section-2">
 
+        <div class="section-2-head-cont">
+            <h2 class="section-2-head">Here are some proven ways to look after your<span> mental health</span>.</h2>
+        </div>
 
-# Meditation
 
-Meditation can wipe away the day's stress, bringing with it inner peace.
-See how you can easily learn to practice meditation whenever you need it most.
+        <div class="card-container">
 
-#Brainwave Entrainment Relaxation webapp
+          <div class="card card-5">
+                  <div class="card-content-cont">
+                      <h3 class="card-head">Meditate </h3>
+                      <p class="card-text">
+                          Practice mindfullness regularly  <br>
+                          <span class="link-cont">
+                              <a href="otherHTML/meditate.html">Learn more</a>
+                              <i class="fas fa-long-arrow-alt-right arrow"></i>
+                          </span>
+                      </p>
+                  </div>
+              </div>
 
-*Brainwave entrainment is the process of using external stimuli to induce certain
- states of the brain such as happiness, relaxation, sleep, focus and productivity.
+            <div class="card card-1">
+                <div class="card-content-cont">
+                    <h3 class="card-head">Nutrition</h3>
+                    <p class="card-text">
+                        Eat a well balanced diet <br>
+                        <span class="link-cont">
+                            <a href="otherHTML/food.html">Learn more</a>
+                            <i class="fas fa-long-arrow-alt-right arrow"></i>
+                        </span>
+                    </p>
+                </div>
 
-*It is commonly used by people who struggle with different discouraging states,
- health issues and low moods to help them bring about better states within them that can change their entire attitude and improve the way they go about their day.
+            </div>
 
-# Gaming
+            <div class="card card-2">
+                <div class="card-content-cont">
+                    <h3 class="card-head">Exercise </h3>
+                    <p class="card-text">
+                        Stay active Excercise regularly  <br>
+                        <span class="link-cont">
+                            <a href="otherHTML/exercise.html">Learn more</a>
+                            <i class="fas fa-long-arrow-alt-right arrow"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
 
-A new paper suggests that video games might hold the key to providing affordable, stigma-free mental health
-treatment around the globe.  
+            <div class="card card-3">
+                <div class="card-content-cont">
+                    <h3 class="card-head">Talk</h3>
+                    <p class="card-text">Talk freely to someone  <br>
+                        <span class="link-cont">
+                            <a href="#SECTION-3">Learn more</a>
+                            <i class="fas fa-long-arrow-alt-right arrow"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
 
-So i added two simple games to play.
 
-#### How to navigate
 
-* On the below page click on the "STAY HAPPY" card to open Gaming section ,where you can find two games
-* Click on the game you want to play.
+            <div class="card card-4">
+                <div class="card-content-cont">
+                    <h3 class="card-head">Stay Happy</h3>
+                    <p class="card-text">Do something that makes you happy  <br>
+                        <span class="link-cont">
+                            <a href="#">Learn more</a>
+                            <i class="fas fa-long-arrow-alt-right arrow"></i>
+                        </span>
 
+                    </p>
+                </div>
+            </div>
 
-## Games
 
-### Block Rider
 
+        </div>
 
-#### How to play:
 
-* Use Left and Right arrow (or) use A and D to move the Car.
-* If your using mobile use the two Arrow symbols below to move the car.
 
 
+        <div class="more-activities-cont">
+            <div class="more-content-head">
+                <p>Some more ways...</p>
+            </div>
 
-### Blockson
+            <div class="more-content-card-cont">
 
+                <div class="more-card">
 
-#### How to play:
+                    <div class="actual-card">
+                        <div>
+                            <img src="Images/sleep.png" alt="sleep" width="50px" height="50px">
+                        </div>
+                    </div>
 
-* Use Up arrow (or) Just click on the screen to jump.
+                    <div class="more-card-content">
+                        <p>Enough Sleep</p>
+                    </div>
+                </div>
 
+                <div class="more-card">
 
+                    <div class="actual-card">
+                        <img src="Images/music.jpg" alt="sleep" width="50px" height="50px">
+                    </div>
 
-# Nutrition for Mental Health
+                    <div class="more-card-content">
+                        <p>Listen to music</p>
+                    </div>
+                </div>
 
-It’s also important to understand how food choices affect your brain, Good diet is
-important for mental health.
+                <div class="more-card">
 
-#### How to navigate
+                    <div class="actual-card">
+                        <img src="Images/water-bottle.png" alt="sleep" width="50px" height="50px">
+                    </div>
 
-* Click "Explore" button on main page. (Takes you to the second section).
-* Click on the "Nutrition" card to explore.
+                    <div class="more-card-content">
+                        <p>Keep Hydrated</p>
+                    </div>
+                </div>
 
+                <div class="more-card">
 
+                    <div class="actual-card">
+                        <img src="Images/sun.png" alt="sleep" width="50px" height="50px">
+                    </div>
 
-# Exercise for Mental Health
+                    <div class="more-card-content">
+                        <p>Sunshine</p>
+                    </div>
+                </div>
 
-One study found that increasing your activity levels from doing nothing, to exercising at least three times a week, reduces the risk of depression by up to 30 per cent.
+                <div class="more-card">
 
-#### How to navigate
+                    <div class="actual-card">
+                        <img src="Images/park 01.png" alt="sleep" width="50px" height="50px">
+                    </div>
 
-* Click "Explore" button on main page. (Takes you to the second section).
-* Click on the "Exercise" card to explore.
+                    <div class="more-card-content">
+                        <p>Head Outside</p>
+                    </div>
+                </div>
 
+                <div class="more-card">
 
-#### THANK YOU <3
+                    <div class="actual-card">
+                        <img src="Images/laugh.png" alt="sleep" width="50px" height="50px">
+                    </div>
+
+                    <div class="more-card-content">
+                        <p>laugh</p>
+                    </div>
+                </div>
+
+                <div class="more-card">
+
+                    <div class="actual-card">
+                        <img src="Images/give-love.png" alt="sleep" width="50px" height="50px">
+                    </div>
+
+                    <div class="more-card-content">
+                        <p>Gratitude</p>
+                    </div>
+                </div>
+
+                <div class="more-card">
+
+                    <div class="actual-card">
+                        <img src="Images/bad-habits.png" alt="sleep" width="50px" height="50px">
+                    </div>
+
+                    <div class="more-card-content">
+                        <p>Temperance</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+                <div class="card card-6">
+                    <div class="card-content-cont">
+                        <h3 class="card-head">Listen BrainWave Entrainment</h3>
+                        <p class="card-text">Do something that makes you happy  <br>
+                            <span class="link-cont">
+                                <a href="otherHTML/meditate.html">Learn more </a>
+                                <i class="fas fa-long-arrow-alt-right arrow"></i>
+                            </span>
+
+                        </p>
+                    </div>
+                </div>
+
+
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    +++++++++++                   SECTION-3                       +++++++++++
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+
+    <div class="section-3-cont" id="SECTION-3">
+
+        <div class="take-page-content-cont">
+
+            <div class="talk-page-content">
+                <div>
+                    <h2>Talk.</h2>
+                    <p>
+                        As above mentioned talking to someone about your feeling really help to reduce depression and heal you.
+                    </p>
+
+                    <p>
+                        Talking can be a way to cope with a problem you’ve been carrying around in your head for a while.
+                         Just being listened to can help you feel supported and less alone. And it works both ways.
+                          If you open up, it might encourage others to do the same.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Chat Bot</h2>
+
+                    <p>
+                        If you feel sad today incase you need someone to talk about what you've been through,here you go
+
+                    </p>
+                    <button class="take-me-there-btn" id="chat-bot-page-portal-btn">Take me there <i class="fas fa-long-arrow-alt-right take-there-arrow"></i></button>
+                </div>
+
+
+            </div>
+
+            <div class="take-page-img-cont">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    +++++++++++                   FOOTER                         +++++++++++
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <a id="FOOTER"></a>
+    <div class="footer">
+        <div class="footer-text-cont">
+            <div>
+                <h2>GET IN TOUCH.</h2>
+                <P>I would love to hear from you friend &#60;3</P>
+            </div>
+
+            <div class="author-contribution-cont">
+                <p class="attribute-text">Attribute to author</p>
+
+                <div class="actual-author-contribution-cont">
+                    <div class="attributes-head-cont">
+                        <p>
+                            I've Used some free images from Flaticon and freepik,
+                            So here is the attribute for the authors.
+                        </p>
+
+                        <i class="fas fa-times cross"></i>
+                    </div>
+
+
+                    <ul class="contribution-list">
+                        <li><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></li>
+                        <li><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></li>
+                        <li><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></li>
+                        <li><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></li>
+                        <li><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></li>
+                        <li><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></li>
+                        <li><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></li>
+                        <li><div>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></li>
+                        <li><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></li>
+                        <li><div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-icon-cont">
+            <div class="social-head">
+                <h2 class="logo footer-logo">Bliss.</h2>
+            </div>
+
+            <div class="icons">
+                <ul>
+                    <li><a href="https://github.com/rohith5429"><i class="fab fa-github-square"></i></a></li>
+                    <li><a href="mailto:marshmellowr.49270@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/rohith-v-s-596489204" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copy-rights">Thank You :)</p>
+    </div>
+
+    <script src="otherJS/hamberger.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
